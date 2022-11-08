@@ -1,0 +1,211 @@
+/* start your styling here  */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.container-1-top{
+    display: flex;
+    justify-content: space-around;
+
+}
+.container-1-top-1{
+    display: flex;
+    /* width: 100vw; */
+}
+.first-page{
+    height: 282px;
+    width: 100vw;
+    background-color:#75B9F4
+}
+.container-top-middle{
+    display: flex;
+    gap: 10px;
+    font-size: 8px;
+    line-height: 135%;
+    font-family: sans-serif;
+    line-height: 12px;
+    margin-top: 18px;
+    color: #373F41;
+    letter-spacing: 0.2px;
+}
+.container-top-right{
+    display: flex;
+    gap: 10px;
+    font-size: 8px;
+    margin-top:18px;
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+
+
+}
+.egency{
+width: 95px;
+height: 28px;
+font-family: sans-serif;
+font-size: 13px;
+font-style: italic;
+margin-top: 13px;
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+color: #3C227C;
+}
+.top-signin{
+width: 50px;
+height: 18px;
+font-family: sans-serif;
+font-size: 8px;
+margin-top: -5.5px;
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.2px;
+border: none;
+color: white;
+border-radius: 3px;
+background-color: rgb(250, 19, 19);
+}
+.image-part{
+    display: flex;
+    /* width: 100vw; */
+    justify-content: space-evenly;
+}
+.first-page-p-tag{
+    width: 230px;
+    font-size: 9px;
+    line-height: 12px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+
+}
+.first-page-h2-tag{
+width: 200px;
+font-size: 23px;
+font-family: sans-serif;
+line-height: 25px;
+margin-top: 20px;
+color: #373F41;
+}
+.first-page-button-tag{
+    border: 0.7px solid #F73C6B;;
+    width: 40px;
+    height: 17px;
+    font-size: 8px;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: #F73C6B;
+    margin-bottom: 36px;
+}
+.page-2-main-container{
+    background-color: white;
+}
+.image-part-page-2{
+    margin-top:20px;
+}
+.page-2-div-1{
+    border: 3px solid  white;
+    height: 60px;
+    width: 300px;
+    font-size: 8px;
+    line-height: 12px;
+    font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background-color: whitesmoke;
+}
+.page-2-blue-div-1{
+    border: 3px solid blue;
+    height: 60px;
+    width: 300px;
+    font-size: 8px;
+    line-height: 12px;
+    font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+color: white;
+background-color: blue;
+}
+.page-3-h3-tag{
+    width: 25vw;
+    margin-left: 45px;
+    font-family: sans-serif;
+
+}
+.page-3-p-tag{
+    width: 17.5vw;
+    font-size: 9px;
+    font-family: sans-serif;
+    line-height: 12px;
+}
+
+.four-box-row-wise{
+    display: flex; 
+    flex-direction: column; 
+    line-height: 12px;
+    gap: 5px;
+    font-family: sans-serif;
+}
+.page-3-wrap{
+    display: flex; 
+    /* flex-direction: column; */
+    font-size: 9px;
+    gap: 50px;
+    margin: 30px;
+}
+.image-part-2{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    gap: 11px;
+    line-height: normal;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.subscribe-page{
+    position: relative;
+    height: 230px;
+background-color: #2ED573;
+display: flex;
+}
+.page-5-boxes{
+    border: 3px solid whitesmoke;
+    height: 200px;
+    width: 200px;
+    font-size: 9px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: column;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: none;
+    
+}
+.page-5-boxes-123{
+    padding: 10px;
+    font-family: sans-serif;
+    padding: 10px; 
+    padding-left: 10px;
+    line-height: 12px;
+    height:30px;
+    border-radius: 5px;
+
+      
+}
+.last-page{
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+    line-height: 12px;
+    gap: 15px;
+    font-family: sans-serif; 
+}
