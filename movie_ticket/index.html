@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-Ticket-Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="main_container">
+        <div id="input_container">
+            <label id="label_container">Pick a movie:
+                <select id="pick_one_movie">
+                    <option value="650">Adi Purush(₹650)</option>
+                    <option value="850">Salar(₹850)</option>
+                    <option value="450">Puspa-2((₹450)</option>
+                    <option value="550">Valtheru Viraiah(₹650)</option>
+                    <option value="250">Masooda(₹250)</option>
+            </label>
+            </select>
+        </div>
+        <div id="instruction_top_container">
+            <div class="instruction_container">
+                <div class="seat"> </div>
+                <p class="p_tag"> N/A</p>
+            </div>
+            <div class="instruction_container">
+                <div class="seat selected"> </div>
+                <p class="p_tag">selected</p>
+            </div>
+            <div class="instruction_container">
+                <div class="seat" style="background-color: #ffffff;border: none;"> </div>
+                <p class="p_tag">Occupied</p>
+            </div>
+        </div>
+
+        <img src="https://reverent-bose-df2ec0.netlify.app/screen-thumb.png" alt="">
+
+        <div class="seats_main_container">
+            <div class="golden_seats_row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            
+            <div class="golden_seats_row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+          
+                <div class="golden_seats_row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                </div>
+                <div class="golden_seats_row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="golden_seats_row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+      
+        <div id="hr_tag">
+            <hr>
+            <p style="color: #31d7a9;;padding: 12px;display: flex;align-items: center;justify-content: center;">GOLD-₹650
+            </p>
+            <hr>
+        </div>
+            <div class="golden_seats_row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            
+            <div class="golden_seats_row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+            </div>
+        </div>
+        <div id="hr_tag_diamond">
+            <hr>
+            <p style="  color: #31d7a9;;padding: 12px;display: flex;align-items: center;justify-content: center;">
+                DIAMOND-₹850</p>
+            <hr>
+        </div>
+    <div class="selected_seats_total_price">
+        <p class="selected_seats">Selected Seats <span id='count'>0</span></p>
+        <p class="total_price">Total Price ₹<span id="total">0</span></p>
+    </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

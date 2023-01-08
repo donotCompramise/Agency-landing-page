@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://images.unsplash.com/photo-1458053688450-eef5d21d43b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80');
+    /* background-color: rgb(0, 18, 50); */
+}
+#main_container{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#input_container{
+    margin: 32px;
+    }
+#label_container{
+    color: #ffffff;
+    font-size: 18px;
+}
+#pick_one_movie{
+    height: 32px;
+    width: 250px;
+    border-color: #ffffff;
+    border-radius: 4px;
+}
+#instruction_top_container{
+    display: flex;
+}
+.instruction_container{
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    gap: 8px;
+}
+.seat{
+    border: 2px solid;
+    height: 30px;
+    width: 35px;
+    margin: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: rgba(15, 15, 137, 0.716); 
+    background-color: rgba(7, 7, 107, 0.652);
+}
+.seat:not(.occupied):hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: .3s;
+}
+.p_tag{
+    color: #ffffff;
+}
+.seats_main_container{
+    padding-top:80px; 
+    /* text-align: center; */
+}
+.golden_seats_row{
+    display: flex;
+    
+}
+.seat:nth-of-type(2){
+    margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2){
+    margin-left: 18px;
+}
+#hr_tag{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 85px;
+    color: #31d7a9;
+}
+#hr_tag_diamond{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #31d7a9;
+}
+
+.selected_seats_total_price{
+    margin-right: 250px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.seat.occupied{
+    background-color: #fff;
+    border: none;
+}
+
+.selected{
+    background-color: #6feaf6;
+    background-color: #31d7a9;
+}
+#count,#total{
+font-size: 32px;
+color: #31d7a9;
+}
+.selected_seats,.total_price{
+    font-size: 24px;
+}
