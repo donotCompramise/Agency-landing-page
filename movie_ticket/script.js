@@ -10,33 +10,18 @@ function setMovieData(movieIndex, moviePrice) {
 }
 function selectedSeatCount() {
   const selectedSeats = document.querySelectorAll(".golden_seats_row .selected");
-
-  seatsIndex = [...selectedSeats].map(function(seat) {
+ let seatsIndex = [...selectedSeats].map(function(seat) {
     return [...seatSelection].indexOf(seat);
   });
+  // console.log(seatsIndex)
 
+
+  
   localStorage.setItem("selectedSeats", JSON.stringify(seatsIndex));
 
   let selectedSeatsCount = selectedSeats.length;
   count.innerText = selectedSeatsCount;
   total.innerText = selectedSeatsCount * ticketPrice;
-}
-function populateUI() {
-  const selectedSeats = JSON.parse(localStorage.getItem("selectedSeats"));
-
-  if (selectedSeats !== null && selectedSeats.length > 0) {
-    seats.map(function(seat, index) {
-      if (selectedSeats.indexOf(index) > -1) {
-        seat.classList.add("selected");
-      }
-    });
-  }
-
-  const selectedMovieIndex = localStorage.getItem("selectedMovieIndex");
-
-  if (selectedMovieIndex !== null) {
-    movieSelect.selectedIndex = selectedMovieIndex;
-  }
 }
 pickOneMovie.addEventListener("change", function(e) {
   ticketPrice = +pickOneMovie.value;
@@ -52,11 +37,4 @@ seatsMainContainer.addEventListener("click", function(e) {
     selectedSeatCount();
   }
 });
-
 selectedSeatCount();
-
-
-
-
-
-
